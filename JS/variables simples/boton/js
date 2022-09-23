@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  </head>
+  <body>
+      <h2>
+        Quest
+      </h2> 
+      <p id="press">Press the button</p>
+      <button type="button" onclick="document.getElementById('press').innerHTML =  'Hello world '+ userN ()  ">Click Me!</button>
+  </body>
+</html>

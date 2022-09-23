@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discount</title>
+</head>
+<body>
+  <h1>
+  Receipt 2.0 
+  </h1>
+  
+  <h3>
+  Clothes Price:
+  </h3>
+  <p id="Price"></p>
+  
+  <script>const price_clothes = 45;</script>
+ 
+  <p id="total"></p>
+  <button type="button" onclick="discount_user(price_clothes) ">Calculate!</button>
+ 
+ 
+ 
+  <script>
+ 
+	
+  document.getElementById("Price").innerHTML = price_clothes;
+ 
+   
+  </script>
+</body>
+</html>

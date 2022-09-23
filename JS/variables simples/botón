@@ -1,7 +1,0 @@
-
-function userN () {
-var user = prompt("Enter your user name", "");
-return user;
-}
-
-

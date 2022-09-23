@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Micropogramas Var_S</title>
+</head>
+<body>
+<h1>
+Receipt
+</h1>
+
+<h3>
+Prices:
+</h3>
+<h5>
+Shirt Price:
+</h5>
+<p id="demo"></p>
+<h5>
+Jeans Price:
+</h5>
+<p id="demo1"></p>
+<h5>
+Total:
+</h5>
+<p id="demo2"></p>
+ <script>
+ const price_shirt = 10;
+const price_jeans = 22;
+ 
+ let total_price = price_shirt + price_jeans;
+ document.getElementById("demo").innerHTML = price_shirt;
+ document.getElementById("demo1").innerHTML = price_jeans;
+ document.getElementById("demo2").innerHTML = total_price;
+ </script> 
+</body>
+</html>

@@ -1,0 +1,7 @@
+function discount_user (price_clothes) {
+let discount = prompt("Enter your user discount", "");
+let operation = (parseInt(discount) * price_clothes)/100;
+let total = price_clothes - operation;
+document.getElementById("total").innerHTML = "Total: " + total;
+}
+

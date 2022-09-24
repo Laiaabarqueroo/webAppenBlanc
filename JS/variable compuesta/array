@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Array</title>
+</head>
+<body>
+  <h2>Arrays</h2>
 
+<p id="demo"></p>
+
+<script>
+const colors = ["Red", "Blue", "Green", "White"];
+
+let text = "<ul>";
+colors.forEach(list);
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+
+function list(value) {
+  text += "<li>" + value + "</li>";
+} 
+</script>
+</body>
+</html>

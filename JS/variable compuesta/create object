@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arrays</title>
+</head>
+<body>
+  <h2>Objects</h2>
+
+<p id="demo"></p>
+<script>
+// Create an object:
+const person = {
+   firstName: "Laia",
+  lastName: "Barquero",
+  age: 19,
+  eyeColor: "brown",
+  id: 23456
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName;
+</script>
+</body>
+</html>
